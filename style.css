@@ -33,20 +33,25 @@ body {
 .panel-1 {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     gap: 30px;
-    padding: 50px;
+    padding: 70px;
 }
 
 .title-container {
-    width: 400px;
+    width: 550px;
     height: 200px;
     display: flex;
     flex-wrap: wrap;
 }
 
+.title-container > .sign-up-button {
+    border-style: solid;
+    border-color: transparent;
+}
+
 .title-img {
-    width: 400px;
+    width: 500px;
     height: 200px;
     background-color: grey;
     border: black;
@@ -63,6 +68,8 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 70px;
+    gap: 35px;
 }
 
 .info-text {
@@ -109,7 +116,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 50px;
+    padding: 70px;
     background-color: #e5e7eb;
 }
 
@@ -120,6 +127,7 @@ body {
 .testimonial {
     font-size: 36px;
     font-style: italic;
+    font-weight: 300;
     color: #1f2937;
 }
 
@@ -127,6 +135,36 @@ body {
     display: flex;
     justify-content: flex-end;
 }
+
+.panel-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 70px;
+}
+
+.sign-up-container {
+    width: 900px;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: transparent;
+    padding: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.sign-up-container > .sign-up-button {
+    border-style: solid;
+    border-color: white;
+}
+
+.call-to-action {
+    color: #f9faf8;
+    font-weight: 600;
+    font-size:24px;
+}
+
 
 .footer {
     display: flex;
@@ -155,4 +193,13 @@ ul {
 
 .sign-up-button, .sign-up-container {
     background-color: #3882f6;
+}
+
+.sign-up-button {
+    border-radius: 5px;
+    width: 125px;
+    height: 30px;
+    color: #f9faf8;
+    font-weight: bold;
+    font-size: 16px;
 }
